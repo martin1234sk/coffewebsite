@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffe Shop</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <header id="main-header">
+            <nav id="main-nav">
+                <a href="index.html" class="nav-logo">
+                    <i class="bi bi-cup-hot"></i>
+                    <span>Coffee.</span>
+                </a>
+                <ul class="menu-list ">
+                    <li>
+                        <a href="#home-section" class="menu-link active-menu-link">Domov</a>
+
+                    </li>
+                    <li>
+                        <a href="#about-section" class="menu-link">O nás</a>
+                    </li>
+                    <li>
+                        <a href="#menu-section" class="menu-link">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#review-section" class="menu-link">Recenzie</a>
+                    </li>
+                    
+                </ul>
+                <div class="phone-number ">
+                    <i class="bi bi-telephone"></i>
+                    <span>0022-0303-2030</span>
+                </div>
+                <div id="nav-toggle">
+                    <i class="bi bi-list"></i>
+                </div>
+            </nav>
+            <nav id="responsive-nav">
+                <div id="close-toggle">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <ul class="responsive-menu-list">
+                    <li>
+                        <a href="#home-section" class="responsive-menu-link responsive-link-active">Domov</a>
+                    </li>
+                    <li>
+                        <a href="#about-section" class="responsive-menu-link">O nás</a>
+                    </li>
+                    <li>
+                        <a href="#menu-section" class="responsive-menu-link">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#reviews-section" class="responsive-menu-link">Recenzie</a>
+                    </li>
+                </ul>
+                <ul class="social-list">
+                    <li>
+                        <a href="facebook.com" class="social-link ">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="facebook.com" class="social-link">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="facebook.com" class="social-link">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="facebook.com" class="social-link">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="facebook.com" class="social-link">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="home-section">
+                    <div class="home-section-slider">
+                        <div data-index="0" class="home-section-slide first-slide active">
+                            <a href="#" class="slider-control left-slider-control">
+                                <i class="bi bi-chevron-left"></i>
+                            </a>
+                            <div class="slide-text">
+                                <h2>Našu prácu naozaj milujeme</h2>
+                                <h1>Kávové zrná s <br> perfektnou aromou</h1>
+                                <button>Preskúmať</button>
+                            </div>
+                            <a href="#" class="slider-control right-slider-control">
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                        <div data-index="1" class="home-section-slide second-slide">
+                            <a href="#" class="slider-control left-slider-control">
+                                <i class="bi bi-chevron-left"></i>
+                            </a>  
+                            <div class="slide-text">
+                                <h2>Vychutnajte si tu najlepšiu kávu</h2>
+                                <h1>Vychutnajte si našu <br> exluzívnu kávu a koktejly</h1>
+                                <button>Preskúmať</button>
+                            </div>
+                            <a href="#" class="slider-control right-slider-control">
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                        <div data-index="2" class="home-section-slide third-slide">
+                            <a href="#" class="slider-control left-slider-control">
+                                <i class="bi bi-chevron-left"></i>
+                            </a> 
+                            <div class="slide-text">
+                                <h2>Našu kávu pripravujeme s láskou</h2>
+                                <h1>Lákavá a voňavá <br> aroma kávy</h1>
+                                <button>Preskúmať</button>
+                            </div>
+                            <a href="#" class="slider-control right-slider-control">
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-slider-responsive-controls">
+                        <span data-index="0" class="home-slider-responsive-control active-control"></span>
+                        <span data-index="1" class="home-slider-responsive-control"></span>
+                        <span data-index="2" class="home-slider-responsive-control"></span>
+                    </div>
+        </section>
+        <section id="about-section">
+            <div class="about-section-content container">
+                <div class="about-img-contetnt">
+                    <img src="..//coffeWebsite/img/aboutImg.jpg" alt="about-img">
+                    <div class="img-text-box">
+                        <i class="heart-icon bi bi-heart"></i>
+                        <p>Kapučíno mi veľmi chutilo. Káva bola veľmi jemná</p>
+                    </div>
+                </div>
+                <div class="about-section-text-content">
+                    <h2>Naša Kaviareň</h2>
+                    <h1>Kombinujeme klasiku <br> s dneškom</h1>
+                    <p>
+                        Veľmi si vážime vašu dôveru. Naši klienti si vyberajú naše produkty pretože vedia, že sme najlepší.
+                    </p>
+                    <ul class="coffe-list">
+                        <li>Kapučíno</li>
+                        <li>.</li>
+                        <li>Laté</li>
+                        <li>.</li>
+                        <li>Arabica</li>
+                    </ul>
+                    <div class="text-content-btns">
+                        <button class="about-btn">O nás</button>
+                        <button class="see-more-btn">Viac <i class="bi bi-arrow-right-short"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu-section">
+            <div class="container">
+                <header class="menu-section-header">
+                    <h2>naše menu</h2>
+                    <h1>naše populárne menu</h1>
+                    <p>
+                        Naše miesto bolo navrhnuté profiesionálnym architektom v koopoeráci s psychologom, aby ste sa u nás citili čo najviac možno príjemne.
+                        Pevne veríme, že naša snaha padne na úrodnú pôdu.
+                    </p>
+                </header>
+                <div class="menu-section-wrapper">
+                    <div class="menu-wrapper">
+                        <div class="menu-item">
+                            <img src="..//coffeWebsite/img/menuImg1.png" alt="menu-img" class="menu-item-img">
+                            <div class="menu-item-text">
+                                <h2>Americká pražená káva</h2>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable.
+                                </p>
+                            </div>
+                            <div class="menu-price">
+                                <span>€18.99</span>
+                                <span>€20.66</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="..//coffeWebsite/img/menuImg1.png" alt="menu-img" class="menu-item-img">
+                            <div class="menu-item-text">
+                                <h2>Americká pražená káva</h2>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable.
+                                </p>
+                            </div>
+                            <div class="menu-price">
+                                <span>€18.99</span>
+                                <span>€20.66</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="..//coffeWebsite/img/menuImg1.png" alt="menu-img" class="menu-item-img">
+                            <div class="menu-item-text">
+                                <h2>Americká pražená káva</h2>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable.
+                                </p>
+                            </div>
+                            <div class="menu-price">
+                                <span>€18.99</span>
+                                <span>€20.66</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="..//coffeWebsite/img/menuImg1.png" alt="menu-img" class="menu-item-img">
+                            <div class="menu-item-text">
+                                <h2>Americká pražená káva</h2>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable.
+                                </p>
+                            </div>
+                            <div class="menu-price">
+                                <span>€18.99</span>
+                                <span>€20.66</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="opening-hours-wrapper">
+                        <div class="hours-card">
+                            <h2>otváracie hodiny</h2>
+                            <ul class="oppening-hours-list">
+                                <li>
+                                    <span class="day">Pondelok</span>
+                                    <span class="time"> 7:00 - 15:00</span>
+                                </li>
+                                <li>
+                                    <span class="day">Utorok</span>
+                                    <span class="time">7:00 - 15:00</span>
+                                </li>
+                                <li>
+                                    <span class="day">Streda</span>
+                                    <span class="time">7:00 - 15:00</span>
+                                </li>
+                                <li>
+                                    <span class="day">Štvrtok</span>
+                                    <span class="time">7:00 - 15:00</span>
+                                </li>
+                                <li>
+                                    <span class="day">Piatok</span>
+                                    <span class="time">7:00 - 15:00</span>
+                                </li>
+                                <li>
+                                    <span class="day">Sobota</span>
+                                    <span class="time">9:00 - 14:00</span>
+                                </li>
+                                <li>
+                                    <span class="day">Nedeľa</span>
+                                    <span class="time">Zatvorené</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="brand-section">
+            <div class="container">
+                <h2 class="brands-heading">naše overené značky</h2>
+                <div class="brand-logos-wrapper">
+                    <img src="..//coffeWebsite/img/brandImg1.png" alt="brand-img" class="brand-img">
+                    <img src="..//coffeWebsite/img/brandImg2.png" alt="brand-img" class="brand-img">
+                    <img src="..//coffeWebsite/img/brandImg3.png" alt="brand-img" class="brand-img">
+                    <img src="..//coffeWebsite/img/brandImg4.png" alt="brand-img" class="brand-img">
+                    <img src="..//coffeWebsite/img/brandImg5.png" alt="brand-img" class="brand-img">
+                </div>
+            </div>
+        </section>
+        <section id="review-section">
+            <div class="container">
+                <div class="reviews-wrapper">
+                    <header class="reviews-header">
+                        <h2>Recenzie</h2>
+                        <h1>čo hovoria zákazníci</h1>
+                        <p>
+                            Nejaké recenzie, ktoré zákazníci povedali o naších službách.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam totam repellat, labore commodi exercitationem!
+                        </p>
+                    </header>
+                    <div class="reviews-slider">
+                        <div class="reviews-slide active">
+                            <a href="#" class="review-slider-arrow review-slider-arrow-left">
+                                <i class="bi bi-chevron-left"></i>
+                            </a>
+                            <div class="slide-content">
+                                <img src="..//coffeWebsite/img/profileImg1.jpg" alt="profile-img" class="review-slide-img">
+                                <p class="review-text">
+                                    Vaša káva vždy padne vhod. Ďakujem za chutnú a majstrovský upraženú kávu.
+                                    Určite vašu kaviareň odporučím mojim kamarátom a známym.
+                                </p>
+                                <div class="personal-info">
+                                    <i class="bi bi-quote"></i>
+                                    <span class="name">marnie rotter</span>
+                                    <span class="proffesion">app developer</span>
+                                </div>
+                            </div>
+                            <a href="#" class="review-slider-arrow review-slider-arrow-right">
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                        <div class="reviews-slide">
+                            <a href="#" class="review-slider-arrow review-slider-arrow-left">
+                                <i class="bi bi-chevron-left"></i>
+                            </a>
+                            <div class="slide-content">
+                                <img src="..//coffeWebsite/img/profileImg2.jpg" alt="profile-img" class="review-slide-img">
+                                <p class="review-text">
+                                    Vaša káva vždy padne vhod. Ďakujem za chutnú a majstrovský upraženú kávu.
+                                    Určite vašu kaviareň odporučím mojim kamarátom a známym.
+                                </p>
+                                <div class="personal-info">
+                                    <i class="bi bi-quote"></i>
+                                    <span class="name">marnie rotter</span>
+                                    <span class="proffesion">app developer</span>
+                                </div>
+                            </div>
+                            <a href="#" class="review-slider-arrow review-slider-arrow-right">
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                        <div class="reviews-slide">
+                            <a href="#" class="review-slider-arrow review-slider-arrow-left">
+                                <i class="bi bi-chevron-left"></i>
+                            </a>
+                            <div class="slide-content">
+                                <img src="..//coffeWebsite/img/profileImg3.jpg" alt="profile-img" class="review-slide-img">
+                                <p class="review-text">
+                                    Vaša káva vždy padne vhod. Ďakujem za chutnú a majstrovský upraženú kávu.
+                                    Určite vašu kaviareň odporučím mojim kamarátom a známym.
+                                </p>
+                                <div class="personal-info">
+                                    <i class="bi bi-quote"></i>
+                                    <span class="name">marnie rotter</span>
+                                    <span class="proffesion">app developer</span>
+                                </div>
+                            </div>
+                            <a href="#" class="review-slider-arrow review-slider-arrow-right">
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="reviews-slider-responsive-controls">
+                        <span data-index="0" class="review-slider-responsive-control active-control"></span>
+                        <span data-index="1" class="review-slider-responsive-control"></span>
+                        <span data-index="2" class="review-slider-responsive-control"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="newsletter-section">
+            <div class="container">
+                <div class="newsletter-section-wrapper">
+                    <h1 class="newsletter-heading">
+                        <i class="bi bi-cup-hot"></i>
+                        <span>Coffe.</span>
+                    </h1>
+                    <p class="newsletter-paragraph"> 
+                        This is the perfect place to find a nice and cozy spot to sip some. 
+                        You'll find the Java Jungle, Coffee Bean and more shops right in this website.
+                    </p>
+                    <form action="#" class="newsletter-form">
+                        <input type="text" placeholder="email@example.com" class="newsletter-input">
+                        <button id="sub-btn">Odoberať</button>
+                    </form>
+                    <h3 class="newsletter-error-alert hide">
+                        
+                    </h3>
+                    <h3 class="newsletter-message-sent-alert">
+                        Ďakujeme za váš mail. Budete od nás dostávať novinky na mail.
+                    </h3>
+                    <ul class="newsletter-social-list">
+                        <li>
+                            <a href="facebook.com" class="social-link ">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="facebook.com" class="social-link">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="facebook.com" class="social-link">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="facebook.com" class="social-link">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="facebook.com" class="social-link">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer id="main-footer">
+            <div class="container footer-container">
+                <div class="footer-col first-col">
+                    <h1>
+                        <i class="bi bi-cup-hot"></i>
+                        <span>Coffe.</span>
+                    </h1>
+                    <p>
+                        Coffee is a cafe that serve many variant of coffee and other dishes with very comfortable place.
+                    </p>
+                    <p class="address">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>
+                            USA Californa 65 South Fifth St.Sicklerville, NJ 08081
+                        </span>
+                    </p>
+                </div>
+                <div class="footer-col second-col">
+                    <h2>Zariadenie</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="" class="footer-link">Private Room</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-link">Meeting Room</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-link">Event Room</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-link">Creative Studio</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-link">Custom Room</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col third-col">
+                    <h2>Zariadenie</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="" class="footer-link">Coffe</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-link">Beverages</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-link">Dishes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col fourth-col">
+                    <h2>Podpora</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="" class="footer-link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-link">Private Policy</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-link">Help Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© CodingLab. All rigths reserved</p>
+            </div>   
+        </footer>
+        <a href="#home-section" class="scroll-up-btn">
+            <i class="bi bi-arrow-up-short"></i>
+        </a>
+    </body>
+    
+    <script src="scripts/utility.js"></script>
+    <script src="scripts/main.js"></script>
+</html>
